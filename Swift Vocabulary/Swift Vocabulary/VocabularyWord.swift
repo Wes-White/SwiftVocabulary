@@ -1,5 +1,5 @@
 //
-//  DefinitionViewController.swift
+//  VocabularyWord.swift
 //  Swift Vocabulary
 //
 //  Created by Wesley Ryan on 3/16/20.
@@ -8,17 +8,18 @@
 
 import UIKit
 
-class DefinitionViewController: UIViewController {
+class VocabularyWord: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        struct VocabularyWord {
+            word: String
+            definition: String
+        }
     }
     
-    @IBOutlet weak var TitleLabel: UILabel!
-    @IBOutlet weak var DefinitionText: UITextView!
-    
+
     /*
     // MARK: - Navigation
 
