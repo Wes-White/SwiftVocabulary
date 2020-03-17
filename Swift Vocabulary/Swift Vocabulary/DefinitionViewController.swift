@@ -16,6 +16,9 @@ class DefinitionViewController: UIViewController {
     var vocabWord: VocabularyWord?
     
     
+     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateViews()
@@ -29,7 +32,7 @@ class DefinitionViewController: UIViewController {
             DefinitionText.text = unwrappedVocabWord.definition
         }
     }
-    
+ 
     
     
     
